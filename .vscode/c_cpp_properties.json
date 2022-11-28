@@ -3,7 +3,8 @@
         {
             "name": "Linux",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/googletest-release-1.8.0/*"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/clang",
@@ -14,7 +15,7 @@
                 "limitSymbolsToIncludedHeaders": true,
                 "databaseFilename": ""
               },
-            "compileCommands": "${workspaceFolder}/build/compile_commands.json",
+            "compileCommands": "${workspaceFolder}/compile_commands.json",
             "configurationProvider": "ms-vscode.cmake-tools"
         }
     ],
