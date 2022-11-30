@@ -6,18 +6,13 @@ set (CMAKE_CXX_STANDARD_REQUIRED ON)
 set (CMAKE_CXX_EXTENSIONS OFF)
 set (CMAKE_EXPORT_COMPILE_COMMANDS ON) 
 
-include (FetchContent)
-FetchContent_Declare (
-  googletest
-  GIT_REPOSITORY https://github.com/google/googletest.git
-  GIT_TAG        release-1.10.0
-)
-
 add_library (calculator STATIC calculator.cpp)
 target_include_directories (calculator PRIVATE inc/)
+
+add_subdirectory(googletest-release-1.12.1)
 
 add_executable (test-calculator test-calculator.cpp)
 target_link_libraries (test-calculator PRIVATE calculator gtest 
 gtest_main)
 
-add_subdirectory(googletest-release-1.8.0)
+
