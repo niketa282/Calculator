@@ -7,12 +7,11 @@ set (CMAKE_CXX_EXTENSIONS OFF)
 set (CMAKE_EXPORT_COMPILE_COMMANDS ON) 
 
 add_library (calculator STATIC calculator.cpp)
-target_include_directories (calculator PRIVATE inc/)
+target_include_directories (calculator PUBLIC inc/)
 
 add_subdirectory(googletest-release-1.12.1)
 
 add_executable (test-calculator test-calculator.cpp)
-target_link_libraries (test-calculator PRIVATE calculator gtest 
-gtest_main)
+target_link_libraries (test-calculator PRIVATE calculator gtest gtest_main)
 
 

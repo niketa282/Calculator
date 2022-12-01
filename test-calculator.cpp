@@ -1,6 +1,7 @@
 #include <gtest/gtest.h>
-  
-TEST(Calculator, Fail)
+#include "calculator.h"
+
+TEST(Calculator, Add)
 {
-  EXPECT_TRUE(0);
+  EXPECT_EQ(5, calculator::add(2, 3));
 }
