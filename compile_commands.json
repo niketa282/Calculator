@@ -1,0 +1,37 @@
+[
+{
+  "directory": "/home/niketa282/niketa_calculator/build",
+  "command": "/usr/bin/clang++   -I../inc -isystem ../googletest-release-1.12.1/googletest/include -isystem ../googletest-release-1.12.1/googletest  -g   -std=c++17 -o CMakeFiles/test-calculator.dir/test-calculator.cpp.o -c /home/niketa282/niketa_calculator/test-calculator.cpp",
+  "file": "/home/niketa282/niketa_calculator/test-calculator.cpp"
+},
+
+{
+  "directory": "/home/niketa282/niketa_calculator/build",
+  "command": "/usr/bin/clang++   -I../inc  -g   -std=c++17 -o CMakeFiles/calculator.dir/calculator.cpp.o -c /home/niketa282/niketa_calculator/calculator.cpp",
+  "file": "/home/niketa282/niketa_calculator/calculator.cpp"
+},
+
+{
+  "directory": "/home/niketa282/niketa_calculator/build",
+  "command": "/usr/bin/clang++   -isystem ../googletest-release-1.12.1/googlemock/include -isystem ../googletest-release-1.12.1/googlemock -isystem ../googletest-release-1.12.1/googletest/include -isystem ../googletest-release-1.12.1/googletest  -g   -Wall -Wshadow -Wconversion -DGTEST_HAS_PTHREAD=1 -fexceptions -W -Wpointer-arith -Wreturn-type -Wcast-qual -Wwrite-strings -Wswitch -Wunused-parameter -Wcast-align -Wchar-subscripts -Winline -Wredundant-decls -std=c++17 -o googletest-release-1.12.1/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /home/niketa282/niketa_calculator/googletest-release-1.12.1/googlemock/src/gmock_main.cc",
+  "file": "/home/niketa282/niketa_calculator/googletest-release-1.12.1/googlemock/src/gmock_main.cc"
+},
+
+{
+  "directory": "/home/niketa282/niketa_calculator/build",
+  "command": "/usr/bin/clang++   -I../googletest-release-1.12.1/googlemock/include -I../googletest-release-1.12.1/googlemock -isystem ../googletest-release-1.12.1/googletest/include -isystem ../googletest-release-1.12.1/googletest  -g   -Wall -Wshadow -Wconversion -DGTEST_HAS_PTHREAD=1 -fexceptions -W -Wpointer-arith -Wreturn-type -Wcast-qual -Wwrite-strings -Wswitch -Wunused-parameter -Wcast-align -Wchar-subscripts -Winline -Wredundant-decls -std=c++17 -o googletest-release-1.12.1/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/niketa282/niketa_calculator/googletest-release-1.12.1/googlemock/src/gmock-all.cc",
+  "file": "/home/niketa282/niketa_calculator/googletest-release-1.12.1/googlemock/src/gmock-all.cc"
+},
+
+{
+  "directory": "/home/niketa282/niketa_calculator/build",
+  "command": "/usr/bin/clang++   -isystem ../googletest-release-1.12.1/googletest/include -isystem ../googletest-release-1.12.1/googletest  -g   -Wall -Wshadow -Wconversion -DGTEST_HAS_PTHREAD=1 -fexceptions -W -Wpointer-arith -Wreturn-type -Wcast-qual -Wwrite-strings -Wswitch -Wunused-parameter -Wcast-align -Wchar-subscripts -Winline -Wredundant-decls -std=c++17 -o googletest-release-1.12.1/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/niketa282/niketa_calculator/googletest-release-1.12.1/googletest/src/gtest_main.cc",
+  "file": "/home/niketa282/niketa_calculator/googletest-release-1.12.1/googletest/src/gtest_main.cc"
+},
+
+{
+  "directory": "/home/niketa282/niketa_calculator/build",
+  "command": "/usr/bin/clang++   -I../googletest-release-1.12.1/googletest/include -I../googletest-release-1.12.1/googletest  -g   -Wall -Wshadow -Wconversion -DGTEST_HAS_PTHREAD=1 -fexceptions -W -Wpointer-arith -Wreturn-type -Wcast-qual -Wwrite-strings -Wswitch -Wunused-parameter -Wcast-align -Wchar-subscripts -Winline -Wredundant-decls -std=c++17 -o googletest-release-1.12.1/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/niketa282/niketa_calculator/googletest-release-1.12.1/googletest/src/gtest-all.cc",
+  "file": "/home/niketa282/niketa_calculator/googletest-release-1.12.1/googletest/src/gtest-all.cc"
+}
+]
